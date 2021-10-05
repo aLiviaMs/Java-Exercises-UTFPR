@@ -1,5 +1,3 @@
-package lista01;
-
 import java.util.Calendar;
 import java.util.Scanner;
 
