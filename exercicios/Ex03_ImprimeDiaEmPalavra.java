@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Ex03_ImprimeDiaEmPalavra {
     public static void main(String[] args) {
-        ImprimeDiaEmPalavra();
+        imprimeDiaEmPalavra();
     }
 
-    private static void ImprimeDiaEmPalavra() {
+    private static void imprimeDiaEmPalavra() {
         Scanner scn = new Scanner(System.in);
 
         int numero_dias;
