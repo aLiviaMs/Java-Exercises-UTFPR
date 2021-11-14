@@ -1,4 +1,3 @@
-
 public class Servico {
     String descricao;
     int tempoContratado;
