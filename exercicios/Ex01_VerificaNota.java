@@ -3,25 +3,15 @@ package exercicios;
 import java.util.Scanner;
 
 public class Ex01_VerificaNota {
-    public static void main(String[] args) {
-        verificaNota();
+    public void main(String[] args) {
+        System.out.println(formatarData());
     }
 
-    private static void verificaNota() {
+    int dia = 02;
+    int mes = 8;
+    int ano = 2002;
 
-        Scanner scn = new Scanner(System.in);
-
-        int nota;
-
-        System.out.println("Digite a nota. ");
-        nota = scn.nextInt();
-
-        if (nota >= 6)
-            System.out.print("Passou.");
-        else
-            System.out.print("Reprovou.");
-
-        System.out.println("\n Pronto!");
-        System.exit(0);
+    String formatarData() {
+        return String.format("%d/%d/%d", dia, mes, ano);
     }
 }
